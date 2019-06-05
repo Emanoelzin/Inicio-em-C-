@@ -1,0 +1,23 @@
+O que são dados : 
+
+	* São informações que nós introduzimos na maquina que sofrem algum tipo de processamento para se obter alguma informação útil. 
+	  e assim será sempre a forma de se pensar ..
+
+Como armazenamos os dados:
+
+	* Quando nós armazenamos dados (Variáveis) elas iram para um espaço reservado na memória RAM do PC.  
+	  Uma variável é no casa um espaço de memoria.
+	  
+
+O que são variáveis:
+
+	* São uma função que ele LER ou ESCREVE no espaço que é reservado na memoria RAM
+
+Como processamos os dados:
+
+	* Vamos adquirir alguns dados, introduzimos na maquina, a maquina processará esses dados
+	  e nos fornecerá um resultado.
+
+Como Construímos um programa :
+
+	* Com uma sequência de passos/comandos construímos um algoritmo. vai da linguagem de alto nível para baixo nível. 

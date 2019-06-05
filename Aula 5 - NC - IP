@@ -1,0 +1,32 @@
+Operadores Lógicos e Relacionais:
+
+	* E (ou And) - Uma sentença é verdadeira se e somente se todos os termos forem verdeiros.
+	  OU (ou OR) - Uma sentenã resulta verdadeira se qualquer um dos termos for verdadeiro.
+	  NÃO (ou NOT) - Este operador inverte o termo. 
+
+	* Comparação e entre variáveis ou entre uma variável e um valor do msm tipo. O resultado será sempre do tipo lógico
+	  ( V ou F).
+	  Os operadores relacionais perde em precedência para os operadores aritméticos.
+
+O comando de decisão:
+
+	* O comando de decisão permite que mediante o teste de uma condição seja realizado, ou não o desvio na sequência normal da execução
+ 	  dos comandos de um programa.
+
+Tipos de comando de decisão:
+
+	* Seleção simples : SE testa ENTÃO ação - testa a condição se a condição for V ele faz a ação caso não seja ele não faz a ação.
+	* Seleção composta :  SE testa ENTÃO ação1 SENÃO ação2 - testa a condição 1 se não for essa ele testa a condição 2.
+	* Seleção aninhada/encadeada : SE testa ENTÃO ação1 SENÃO SE testa ENTÃO ação2 SENÃO ação3 - testa a condição 1 se não for ele testa a condição 2 e se essa também não for ele vai para a próxima condição.
+
+Aplicação do comando em programa:
+	
+	* if (condição) {
+
+	     [....]
+
+	} else {
+
+	     [....]
+
+	}

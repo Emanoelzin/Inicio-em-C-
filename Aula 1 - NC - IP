@@ -1,0 +1,26 @@
+O que é um ALTORITMO:
+
+* "é uma receita de bolo" é uma sequência de passo finitos para realizar uma determinada (solução / tarefa).
+   é mto importante saber- que é um processo organizado, temos que estabelecer qual é o problema e verificar as possibilidade e pensar
+   nas soluções e finalmente escolher a solução.
+
+	1 . Reconhecer o problema e estudar o problema.
+	2 . Buscar as possíveis soluções.
+	3 . Estruturar os passos para alcançar essa "solução".
+	4 . Verificaçãp que seria a etapa de validação.
+
+Para que serve:
+
+* Serve para que resolva determinadas tarefas de passos finitos bem estruturados.
+
+Como se represeta:
+
+* - LINGUAGEM NATURAL : Linguagem  do cotidiano, podemos descrever um algoritmo para resolver determinada tarefa do nosso 'cotidiano'.
+  - LINGUAGEM GRÁFICA : Uso de símbolos, representa os algoritmos em símbolos, com o uso de adquar as necessidades e seus símbolos são
+			muito difundido.
+  - PSEUDOLINGUAGEM :   Temos alguns comandos pré-estabelecido para excutar uma determinadas tarefas, e com uma sequência de comando
+			construimos um algoritmo. (linguagem de alto nível para baixo nível.)
+			
+Como se constrói um ALGORITMO:
+
+* Com uma sequência de passos/comandos construimos um algoritmo. vai da linguagem de alto nível para baixo nível. 
