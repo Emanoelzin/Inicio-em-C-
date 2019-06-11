@@ -1,0 +1,75 @@
+classificação das redes : RAN - 802.11, PAN - 802.15, LAN, MAN, WAN.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Sobre cabeamento de rede: sobre cabo cruzado e cabo direto:  T568A e T568b padrão de cabeamento 
+
+se for interligar duas maquinas iguais usa o cabeamento CRUZADO. (Cross Over) 
+USA-SE CABEAMENTO CRUZADO QUANDO ESTÃO NA MSM CAMADA OU FAZEM A MSM FUNÇÃO.
+USA-SE CABEAMENTO DIRETO QUANDO ESTIVEREM EM CAMADAS DIFERENTES.(HUBS, SWITCH E ROTEADOR) FAZER A CONVERÇÃO. 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+padrão ethernet : 1973 surge o padrão Ethernet v1 dix que evolui nos anos 80 para Ethernet v2 
+por fim eles definem como Ethernet, com a taxa de frequencia 10 mgbits/s. - 802.3 : não suporta FULL DUPLEX mas suporta o SIMPLEX E HALF-DUPLEX. 
+chega em 1995 até a liberação da internet comercial, ai surge 100 mgbits/s - FAST ETHERNET - 802.3U
+chega em 1998 e surge 1000 mgbits/s - GIGA ETHERNET - 802.3Z
+chega em 2002 e surge 10 gigas ethernet - 802.3AE - não suporta fibra ótica.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+endereço IP - 32 bits, são 4 octetos que é representado em decimal separado por pontos. 
+para uma melhor organização dividimos em 5 classes: A,B,C,D e E.
+
+Classe A - 0 a 127 - 1 octeto para ser representado - Mask default : 255.0.0.0 / 8 / - 32 bits / REDES PRIVADAS - 10.0.0.0 = 1 RP
+Classe B - 128 a 191 - 2 octeto para ser representado - Mask default : 255.255.0.0 / 16 / - 32 bits / REDES PRIVADAS - 172.16 ATÉ 172.31 - 16 RP
+Classe C - 192 a 223 - 3 octeto para ser representado - Mask default : 255.255.255.0 / 24 / - 32 bits / REDES PRIVADAS - 172.168.0.0 - 226 RP
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sobre o OSI - 7 Camadas : 
+
+Aplicação : INTERFACE QUE PERMITE A INTERAÇÃO DO USUARIO COM A REDE - (HTTP, POP3, IMAP...)
+
+Apresentação : RESPONSAVEL PELO SINTAXE E SEMANTICA FAZ A VERIFICAÇÃO / FORMATAÇÃO DE DADOS E CONVERSÃO DE CARACTERES E CÓDIGOS - (XDR)
+
+Sessão : OCORRE OS MODOS DE OPERAÇÃO : SIMPLEX: SÓ TEM UM SENTIDO E O OUTRO SO RECEBE / HALF-DUPLEX: TRANSMISSÃO NOS DOIS SENTIDOS SÓ QUE 		 ALTERNADAMENTE  / FULL-DUPLEX: TRANSMISSÃO NOS DOIS SENTIDOS E SIMUTÂNIAMENTE  (NETBIOS)
+
+Transporte : SEGMENTAR OS PACOTES, ENTREGA DE DADOS PONTA A PONTA - PROTOCOLO QUE GOVERNA ESSA CAMADA 'TCP - LENTO E SEGURO, ANTES DO ENVIO DE DADOS O 		     CAMINHO É VERIFICADO / UDP - RAPIDO E SEM SEGURANÇA.'(SEGMENTO) (NETBEUI, TCP, UDP)
+
+Rede : ROTEADOR - HOSTEAMENTO DE REDE - PROCOTOLO GOVERNA ESSA CAMADA 'IP' (PACOTE / DATAGRAMA) (ARP, ICMP, IP)
+
+Enlace : SWITCH, BREAD E PLACA DE REDE - RESPONSAVEL DETECTAR E CORRIGIR ERROS INTRODUZIDO PELO MEIO DE TRANSMISSÃO (QUADRO / FRAME) (IEEE, PPP)
+
+Fisica : HUB - LIGAÇÃO FISICA, PARTE ELETRICA, QUAL CABO ESTA SENDO USADO, QUAL PLACA DE REDE VAI SER USADA, CONECTORES..  (BIT) (DSL)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sobre o TCP/IP - 4 Camadas : 
+
+Aplicação : Essa parte contém todos os protocolos para um serviço específico de comunicação de dados em um nível de processo-a-processo (por exemplo: como um web browser deve se comunicar com um servidor da web). (SEGMENTO) (FTP, HTTP,TELNET)
+
+Transporte : Essa parte controla a comunicação host-a-host. (PACOTE / DATAGRAMA) (TCP, UDP)
+
+Rede / INTERNET : ROTEADOR - Essa parte é responsável pelas conexões entre as redes locais, estabelecendo assim a interconexão. (QUADRO / FRAME) (IP 4,6 - ICMP)
+
+Enlace : HUB, SWITCH, BREAD E PLACA DE REDE - Essa é a parte conhecida como física pois trata-se das tecnologias usadas para as conexões como: Ethernet, Wi-Fi, Modem, etc (BIT) (ARP, PPP)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUANDO SE TRATA DE PORTAS / DE SOCKET - É A CAMADA DE TRANSPORTE , NECESSARIAMENTE ELE VAI PEGAR UMA APLICAÇÃO E VAI ASSOCIAR COM A PORTA E DAI ELE VAI SABER SE VAI TRABALHAR COM TCP OU COM O UDP, QUEM DEFINE ISSO SOMOS NÓS OS DESENVOLVEDORES.
+
+PARA QUE SERVE O SOCKET ? PARA PERMITIR A INTERLIGAÇÃO / A CONEXÃO DO APLICATIVO COM UM DOS PROTOCOLOS TCP OU UDP OU A OS DOIS.
+
+COMO SE ACESSAVA A INTERNET ANTIGAMENTE ? ACESSO A DISCADO EVOLUI-SE E USAMOS BANDA LARGA
+POR QUÊ QUE É BANDA LARGA ? TRABALHA COM A TAXA DE FREQUÊNCIA ACIMA DE 4KHZ - (4 KHZ ERA A FAIXA DE VOZ) A QUE UTILIZAMOS É A BANDA LARGA XDSL.
+xDSL : DIGITAL SUBSCRIBER LINE - LINHA DIGITAL ASSINANTE. (SOMENTE PARA PAR METALICO)
+aDSL : É O QUE UTILIZAMOS EM CASA. (FAIXA DE VOZ : UPSTREAM 15KHZ A 138KHZ / DOWNSTREAM 140KHZ A 1100MGHTZ)
+sVSL : A LARGURA DE BANDO É IGUAL. (DOWNLOAD E UPLOAD SÃO A MESMA).
+
+ASSICRONO : A QUANTIDADE DE DOWNLOAD É MAIOR QUE A DE UPLOAD
+SINCRONO : A QUANTIDADE DE DOWNLOAD E IGUAL A DE UPLOAD
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+DHCP : (Dynamic Host Configuration Protocol) - Trata-se de um protocolo utilizado em redes de computadores que permite a estes obterem um endereço IP automaticamente. (TCP/IP)
+DHCP > MANUAL, AUTOMATICO E DINAMICO.
+
+
+
+
+
