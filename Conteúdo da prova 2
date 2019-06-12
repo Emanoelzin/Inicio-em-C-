@@ -1,0 +1,280 @@
+1 - Slide - CONCEITO DE PROCESSAMENTO DE DADOS :
+
+COMPUTADOR: É uma máquina capaz de sistematicamente coletar, tratar e fornecer os resultados
+derivados do processamento dos dados coletados. Aó longo do tempo foi mudando de formato. (DESKTOP, TABLET, NETBOOK...)
+
+DADO E INFORMAÇÃO: Dado é a matéria- prima obtida na etapa de coleta (entrada) e informação é o resultado obtido pelo tratamento destes dados (saída). Esse “tratamento” feito pelo computador é o processamento, realizado através de programas (sequência de instruções)
+DADOS -> PROCESSAMENTO -> INFORMAÇÃO 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Hardware: Componentes físicos de um computador
+como placas, processador, memória, etc.
+
+Software: Programas que permitem a interação com o
+computador. Estes programas são escritos, utilizando-se
+uma linguagem de programação e são então convertidos
+para um formato compreensível para o processador
+
+Sistema Operacional: conjunto de programas que
+permite a interação entre o usuário e o computador
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Depois do dispositivos mecânicos... Chegam os eletrônicos:
+
+Primeira Geração: Válvula
+Segunda Geração : Transistor
+Terceira Geração: Circuitos Integrados
+Quarta Geração: VLSI
+Quinta geração: Computadores Quânticos
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+PROCESSADOR : Responsável pela execução de operações definidas por uma instrução de
+máquina. Também é chamado de UCP (Unidade Central de Processamento) ou
+CPU (Central Processing Unit).
+
+MEMÓRIA : Sistema de armazenamento e recuperação de dados. Cada dispositivo de
+memória possui características diferentes. A memória principal é dividida em
+partes endereçáveis (endereços) onde as informações estão armazenadas e de
+onde podem ser recuperadas.
+
+DISPOSITIVOS DE ENTRADA / SAÍDA : Permite a comunicação entre o sistema de computação e o meio exterior
+convertendo a linguagem utilizada pelo sistema em linguagem do mundo
+exterior e vice-versa. Os seres humanos entendem símbolos enquanto os
+computadores entendem sinais elétricos.
+
+BARRAMENTO : Conjunto de fios que conduz sinais elétricos entre os componentes. Um
+barramento pode ser composto por um ou mais fios, em função da quantidade
+de bits que irá transportar. Existem barramentos para propósitos distintos:
+endereços, dados e controle.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+2 - Slide - Algoritmos e programas:
+
+Qualquer processamento de dados requer a execução de uma série de etapas que podem ser
+realizadas por um computador. Estas etapas ordenadas formam um algoritmo
+
+Para que um algoritmo seja executado por um computador é necessário que o processador
+entenda o que está sendo solicitado. Cada passo do algoritmo corresponde a uma instrução e o
+conjunto de instruções forma um programa
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Linguagens de programação:
+
+O computador possui uma linguagem própria (linguagem binária ou linguagem de máquina) para
+receber ordens. No entanto, programar em linguagem binária não é tarefa fácil para seres
+humanos, pois utilizam apenas dois caracteres (0 e 1), chamados bits (binary digits)
+
+Para tornar a programação possível foram desenvolvidas linguagens de alto nível, ou seja, mais
+próximas do entendimento humano, chamadas genericamente de linguagens de programação.
+Alguns exemplos: Pascal, Java, C, C++, Cobol, Delphi.. 
+
+Função dos compiladores: traduzir um programa
+escrito em uma linguagem de alto nível em código
+binário. O arquivo resultante é chamado código objeto
+
+Função dos ligadores: agregar módulos em um único
+programa, inserindo informações de relocação de
+endereços e referência entre os módulos. O arquivo
+resultante é chamado código executável
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Unidades de informação:
+
+Bit: unidade para composição de uma informação. Os bits 0 e 1 são os algarismos na numeração
+binária e com estes dois algarismos todos os demais números podem ser representados
+
+Byte: unidade mínima de informação composta por 8 bits (octeto)
+
+Word: unidade de armazenamento e recuperação de uma informação; múltiplo de byte
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+3 - Slide - Bases e seus algarismos:
+
+Combinações em cada base:
+
+Utilizamos o sistema decimal (base 10) em nosso cotidiano, no qual temos algarismos de 0 a 9
+representando valores de unidades, dezenas, centenas, etc.
+Algarismos na base decimal (10): 0 1 2 3 4 5 6 7 8 9
+
+Mas, existem outras bases (sistemas) de numeração com os quais o computador opera. Os
+algarismos dessas bases são:
+
+Algarismos na base binária (2): 0 1
+Algarismos na base hexadecimal (16): 0 1 2 3 4 5 6 7 8 9 A B C D E F
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+4 - Slide - Sistemas (bases) de numeração
+
+Sistemas (bases) de numeração:
+
+Em nosso cotidiano utilizamos a base decimal e seus múltiplos para expressar medidas. No
+entanto, os computadores armazenam informações expressos da forma binária, conforme visto
+na aula anterior. Esta forma de representação é intuitiva se lembrarmos do conceito de bit
+
+A representação em hexadecimal aparece então como uma alternativa entre a forma decimal,
+que não pode ser expressa em potência de 2 e a forma binária, que utiliza muitos dígitos em
+sua representação
+
+São tabelas que transformar caracteres não numéricos em números para que possam ser
+armazenados em formato binário. A forma mais usual de representação é a ASCII
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+5 - Slide - Portas e operações lógicas
+
+Portas e operações lógicas:
+
+Os circuitos digitais são formados por elementos capazes de manipular apenas grandezas binárias,
+chamados de portas lógicas
+
+Esses elementos de hardware recebem (um ou mais) sinais de entrada e produzem um sinal de saída
+
+As seguintes operações lógicas serão apresentadas, cada uma representada por uma porta lógica:
+
+AND: Produz resultado verdade se e somente se todas as entradas forem verdade - Q = A * B 
+OR: Produz resultado verdade se pelo menos uma das entradas for verdade - Q = A + B 
+NOT: Inverte o valor da entrada - Q = Â 
+NAND: Produz o inverso da saída AND equivalente - Q = Ã * Ê
+NOR: Produz resultado verdade se e somente se todas as entradas forem falsas - Q = Ã + Ê
+XOR: Produz resultado verdade se os valores de sua entrada forem diferentes - Q = A +O B 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Tabela-verdade e expressões lógicas:
+
+Pode definir expressão lógica como sendo a expressão algébrica formada por variáveis lógicas e
+por símbolos representativos de operações lógicas
+
+O valor do resultado de uma expressão lógica pode ser obtido por uma tabela-verdade
+construída com todas as possibilidades de entrada e as correspondentes saídas 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+7 - Slide - Modelo de Von Neumann 
+
+Características:
+
+Dados e instruções armazenados em uma única memória
+utilizada tanto para leitura quanto para escrita
+
+Os dados armazenados na memória podem ser acessados
+através de endereços
+
+A execução de um programa ocorre sequencialmente, por
+ordem de endereços, exceto se for feita algum desvio explicito
+no programa
+
+MEMÓRIA <-> PROCESSADOR <-> ENTRADA E SAÍDA
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Barramento de dados:
+
+RDM / MBR - DADOS = REGISTRADOR DE DADOS DA MEMORIA
+REM / MAR - ENDEREÇO = REGISTRADOR DE ENDEREÇOS DA MEMOÓRIA 
+CONTROLE - OPERAÇÃO (READ/WRITE) = UNIDADE DE CONTROLE 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Registradores:
+
+Tamanho da célula -> Determina RDM
+Célula de 32 bits -> RDM com 32 bits
+Tamanho da memória em células -> Determina REM
+Memória com 256 células -> REM com 8 bits
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Unidade Central de Processamento (UCP):
+
+MEMÓRIA <-> (UNIDADE DE CONTROLE / UNIDADE ARITMETICA E LOGICA) - REGISTRADOR <-> ENTRADA E SAÍDA 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Componentes da UCP:
+
+Unidade de Controle -> Gerenciamento do fluxo interno dos dados
+Unidade Aritmética e Lógica -> Execução de operações lógicas e aritméticas, efetuando transformações sobre os dados
+REGISTRADOR -> Células de memória (temporárias) dentro do processador
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+UCP: Registradores especiais:
+
+Registrador de Instruções (IR - Instruction Register)
+Armazena a instrução que está sendo executada
+
+Registrador de estado (PSW - Program Status Word)
+Armazena condições de estado geradas pela unidade aritmética e
+lógica gerando informações para a unidade de controle
+
+Contador do programa (PC - Program Counter)
+Armazena o endereço da próxima instrução que será executada
+
+Grande quantidade de acessos a memória
+Velocidade dos novos dispositivos
+Execução em paralelo
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Dispositivos de E/S:
+ENTRADA e SAÍDA :
+
+Armazenamento
+  -HD (Disco Rígido)
+  -CD-ROM
+  -DVD
+  -Pendrive (flash)
+Monitor de vídeo
+Teclado
+Mouse
+Placa de som
+Webcam
+Placa de rede
+Multifunciona
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+8 - Slide - CONJUNTO DE INSTRUÇÕES:
+
+CONCEITO : 
+
+São as ordens que o computador entende
+Cada família de processadores tem o seu próprio conjunto de instruções, chamado
+(instruction set)
+Quem usa essas instruções?
+O programador Assembly, os compiladores
+Ninguém programa utilizando as instruções do processador!
+Programas são desenvolvidos em linguagens de alto nível.
+Instruções podem ter formatos diferentes, dependendo do número de operandos
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+TIPOS DE INSTRUÇÕES : 
+
+Instruções Aritméticas e Lógicas - Realizam operações aritméticas (ADD, SUB ...) e lógicas (AND, OR)
+Instruções de Movimentação de Dados - Transferem dados entre registradores ou entre registrador e memória principal (MOV)
+Instruções de Transferências de Controle - Executam o desvio do fluxo sequencial do código (JMP)
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FORMATO DE UMA INSTRUÇÃO: 
+
+CÓDIGO DA OPERAÇÃO - Indica que operação será executada. A quantidade de bits desse código determina o número máximo de instruções
+OPERANDO(S) - Indica o(s) dado(s) que será(ão) manipulado(s): números, caracteres, endereços
+
+EXEMPLOS DE INSTRUÇÕES : 
+
+ADD op1,op2,op3 - ADD, OP1, OP2, OP3
+MOV op1,op2 - MOV, OP1, OP2
+ADD R, op1 - ADD, R, OP1
+JNZ op1 - JNZ, OP1
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+REGISTRADORES:
+
+Registradores de uso geral para armazenamento
+temporários dos dados que serão processados
+Exemplos: AX, BX
+
+Registradores de uso específico para funções
+pré-definidas de controle
+Exemplos: IR, PSW, PC
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODOS DE ENDEREÇAMENTO:
+
+IMEDIATO -> Utiliza um valor como operando e não um endereço na memória ADD #A,R1
+sem referência à memória
+limitado e pouco flexível
+
+DIRETO -> Indica o endereço de memória onde está o operando ADD (A), R1
+simples
+espaço de endereçamento limitado
+
+INDIRETO -> Indica um ponteiro para o operando ADD (R1),R2
+espaço de endereçamento grande
+múltiplas referências à memória
+
+REGISTRADOR -> O endereço se refere a um registrador ADD R,OP1
+sem referência à memória
+espaço de endereçamento limitado
+
+DESLOCAMENTO -> Obtido pela soma do operando com o conteúdo de um registrador base ADD (A)R1, R2
+Flexibilidade
+complexidade
+
+
+ 
